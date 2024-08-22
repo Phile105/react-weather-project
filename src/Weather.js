@@ -64,6 +64,29 @@ export default function Weather() {
           </ul>
         </div>
       </div>
+      <br />
+      <div className="links">
+        This project was coded by{" "}
+        <a href="https://github.com/Phile105" target="_blank" rel="noreferrer">
+          Nkosingiphile Mbhele
+        </a>
+        , is open-source on{" "}
+        <a
+          href="https://github.com/Phile105/react-weather-project"
+          target="_blank"
+          rel="noreferrer"
+        >
+          GitHub
+        </a>{" "}
+        and hosted on{" "}
+        <a
+          href="https://melodic-pika-79cb10.netlify.app"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Netlify.
+        </a>
+      </div>
     </div>
   );
 }
